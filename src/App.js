@@ -1,24 +1,25 @@
-import About from './Components/About';
-import Home from './Components/Home';
-import Pricing from './Components/Pricing';
-import Services from './Components/Services';
-import Faq from './Components/Faq';
-import Team from './Components/Team';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
 
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from 'react-router-dom'
+import Fablab from './Components/Fablab';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
 
 function App() {
   return (
     <>
-    <Home />
-    <About />
-    <Services />
-    <Pricing />
-    <Faq />
-    <Team />
-    <Contact />
-    <Footer />
+    <Router>
+    
+    <Routes>
+      
+    <Route exact path='/' element={<Fablab/>} />
+    <Route exact path='/login' element={<Login/>} />
+    <Route exact path='/signup' element={<Signup/>} />
+    </Routes>
+    </Router>
     </>
   );
 }
