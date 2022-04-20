@@ -20,7 +20,7 @@ const Navbar = () => {
             </ul>
             <i className="bi bi-list mobile-nav-toggle d-none"></i>
           </nav>
-          <a className="btn-getstarted scrollto" href="index.html#about">Get Started</a>
+          <a className="btn-getstarted scrollto" href="/login">Login</a>
         </div>
       </header>    
     </>
