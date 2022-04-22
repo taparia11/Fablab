@@ -17,15 +17,15 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src={Testimonial1} className="testimonial-img" alt=""/>
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src='https://pps.whatsapp.net/v/t61.24694-24/244649946_628035581911149_1413659644928309676_n.jpg?ccb=11-4&oh=01_AVxvVrEltX-XvLQjVSAhmYf8ylz4iJqYtnFbR7bYJP7RPA&oe=62711C59' className="testimonial-img" alt=""/>
+                <h3>NIKHIL TAPARIA</h3>
+                <h4>B.Tech &amp; CSBS</h4>
                 <div className="stars">
                   <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  I am very happy to give this feedback. when i thought to start my StartUp in SRM i was to nervous how will i get resource here. After some days when i get to know about Fablab i joined that, today i can say Fablab has provided me all resources that i required. Like Machines, Workspace and also they guided me how to use them. 
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
