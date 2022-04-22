@@ -33,15 +33,15 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src={Testimonial2} className="testimonial-img" alt=""/>
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src='https://media-exp1.licdn.com/dms/image/C5103AQGACnCVr8ZzMg/profile-displayphoto-shrink_800_800/0/1583952952742?e=1655942400&v=beta&t=gjfF2jDT8PBAYCefKDgIwFvzBYI8O3ZCjG9HGQNo24k' className="testimonial-img" alt=""/>
+                <h3>Anant Mishra</h3>
+                <h4>Data Analyst&amp; StartUp</h4>
                 <div className="stars">
                   <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  This is my first StartUp, for my idea i need some large machines and equipments. Fablab is the Only place where i got all these things.
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
