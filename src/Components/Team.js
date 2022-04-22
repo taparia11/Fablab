@@ -67,7 +67,7 @@ const Team = () => {
                   <a href="/"><i className="bi bi-envelope-fill"></i></a>
                   <a href="/"><i className="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Mr. KURAL ARASAN</h4>
+                <h4>Mr. KURAL A</h4>
                 <span>Technical Assistant, Fablab</span>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Team = () => {
                   <a href="/"><i className="bi bi-envelope-fill"></i></a>
                   <a href="/"><i className="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Mr. Mani maran</h4>
+                <h4>Mr. Mani Maran</h4>
                 <span>Technical Assistant, Fablab</span>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Team = () => {
                   <a href="/"><i className="bi bi-envelope-fill"></i></a>
                   <a href="/"><i className="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Mr. Sivasankar Subramanian</h4>
+                <h4>Mr. Sivasankar S</h4>
                 <span>Technical Assistant, Fablab</span>
               </div>
             </div>
