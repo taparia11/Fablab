@@ -10,7 +10,7 @@ const Navbar = () => {
           <nav id="navbar" className="navbar">
             <ul>
               <li><a className="nav-link scrollto" href="index.html#hero-animated" >Home</a></li>
-              <li><a className="nav-link scrollto" href="index.html#about">About</a></li>
+              {/* <li><a className="nav-link scrollto" href="index.html#about">About</a></li> */}
               <li><a className="nav-link scrollto" href="index.html#services">Services</a></li>
               <li><a className="nav-link scrollto" href="index.html#pricing">Pricing</a></li>
               <li><a className="nav-link scrollto" href="index.html#faq">FAQ</a></li>

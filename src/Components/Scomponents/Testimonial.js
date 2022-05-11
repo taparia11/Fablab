@@ -15,11 +15,11 @@ const Testimonial = () => {
         <div className="testimonials-slider swiper">
           <div className="swiper-wrapper">
 
-            <div className="swiper-slide">
+          <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src='https://pps.whatsapp.net/v/t61.24694-24/244649946_628035581911149_1413659644928309676_n.jpg?ccb=11-4&oh=01_AVxvVrEltX-XvLQjVSAhmYf8ylz4iJqYtnFbR7bYJP7RPA&oe=62711C59' className="testimonial-img" alt=""/>
+                {/* <img src='https://pps.whatsapp.net/v/t61.24694-24/244649946_628035581911149_1413659644928309676_n.jpg?ccb=11-4&oh=01_AVxvVrEltX-XvLQjVSAhmYf8ylz4iJqYtnFbR7bYJP7RPA&oe=62711C59' className="testimonial-img" alt=""/> */}
                 <h3>NIKHIL TAPARIA</h3>
-                <h4>B.Tech &amp; CSBS</h4>
+                <h4>Software Engineer &amp; Full Stack Developer</h4>
                 <div className="stars">
                   <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                 </div>
@@ -49,15 +49,15 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src={Testimonial3} className="testimonial-img" alt=""/>
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src='https://media-exp1.licdn.com/dms/image/D4E35AQHu9ppfkCyD_Q/profile-framedphoto-shrink_800_800/0/1649354292043?e=2147483647&v=beta&t=jQJ8s_CcX9Dttvlx5ObBK9kkNWnqwbUbAbQ2E9WLIvE' className="testimonial-img" alt=""/>
+                <h3>Darshil Kantariya</h3>
+                <h4>Student</h4>
                 <div className="stars">
                   <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Fableb provided me not only infrastructure but they keep guiding me.
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -65,15 +65,15 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src={Testimonial4} className="testimonial-img" alt=""/>
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src='https://media-exp1.licdn.com/dms/image/C4E03AQG7H_aHvqDhyw/profile-displayphoto-shrink_800_800/0/1621345736168?e=1656547200&v=beta&t=mUQEXj8B42fgmMsHXVgPJoDStYJQzhYg5ZX80U3kMi4' className="testimonial-img" alt=""/>
+                <h3>SIddharth Srivastava</h3>
+                <h4>Owner Madeeasy</h4>
                 <div className="stars">
                   <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  FabLab is the place to get inspired from your own ideas, and to bring best out of your creativity.
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -81,19 +81,21 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src={Testimonial5} className="testimonial-img" alt=""/>
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src='https://pps.whatsapp.net/v/t61.24694-24/166048304_187111779678976_2294830755091111867_n.jpg?ccb=11-4&oh=01_AVxvL-JtkQelI8HfQUsGFv3kwBhlMeBkUxZHTBNld0E_yg&oe=62779674' className="testimonial-img" alt=""/>
+                <h3>Yuvraj Devnani</h3>
+                <h4>Project Head</h4>
                 <div className="stars">
                   <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  FabLab is only place for whom, those you want to build.
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </div>
+
+            
           </div>
           <div className="swiper-pagination"></div>
         </div>

@@ -6,7 +6,7 @@ import Projects from './Scomponents/Projects'
 const About = () => {
   return (
     <>
-    <Director />
+    {/* <Director /> */}
     <Client />
     <Projects />
     </>

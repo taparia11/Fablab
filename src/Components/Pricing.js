@@ -33,7 +33,7 @@ const Pricing = () => {
               </ul>
 
               <div className="text-center mt-auto">
-                <a href="/" className="buy-btn">Buy Now</a>
+                <a href="https://rzp.io/l/StudentMembership999" className="buy-btn">Buy Now</a>
               </div>
 
             </div>
@@ -52,7 +52,7 @@ const Pricing = () => {
               </ul>
 
               <div className="text-center mt-auto">
-                <a href="/" className="buy-btn">Buy Now</a>
+                <a href="https://rzp.io/l/TechTeamMembership299" className="buy-btn">Buy Now</a>
               </div>
 
             </div>
@@ -71,7 +71,7 @@ const Pricing = () => {
               </ul>
 
               <div className="text-center mt-auto">
-                <a href="/" className="buy-btn">Buy Now</a>
+                <a href="https://rzp.io/l/StartupsMembership199" className="buy-btn">Buy Now</a>
               </div>
 
             </div>
@@ -95,7 +95,7 @@ const Pricing = () => {
       </ul>
 
       <div className="text-center mt-auto">
-        <a href="/" className="buy-btn">Buy Now</a>
+        <a href="https://rzp.io/l/facultymembership999" className="buy-btn">Buy Now</a>
       </div>
 
     </div>
@@ -106,7 +106,7 @@ const Pricing = () => {
 
       <div className="pricing-header">
         <h3>MEMBERSHIP FOR SRM ALUMNI</h3>
-        <h4><sup>₹</sup>299</h4>
+        <h4><sup>₹</sup>1499</h4>
       </div>
 
       <ul>
@@ -115,7 +115,7 @@ const Pricing = () => {
       </ul>
 
       <div className="text-center mt-auto">
-        <a href="/" className="buy-btn">Buy Now</a>
+        <a href="https://rzp.io/l/Alumnimembership1499" className="buy-btn">Buy Now</a>
       </div>
 
     </div>
@@ -126,7 +126,7 @@ const Pricing = () => {
 
       <div className="pricing-header">
         <h3>MEMBERSHIP FOR EXTERNAL MEMBER</h3>
-        <h4><sup>₹</sup>199</h4>
+        <h4><sup>₹</sup>2499</h4>
       </div>
 
       <ul>
@@ -135,7 +135,7 @@ const Pricing = () => {
       </ul>
 
       <div className="text-center mt-auto">
-        <a href="/" className="buy-btn">Buy Now</a>
+        <a href="https://rzp.io/l/externalmembership2499" className="buy-btn">Buy Now</a>
       </div>
 
     </div>
@@ -149,7 +149,7 @@ const Pricing = () => {
 
               <div className="pricing-header">
                 <h3>A DAY PASS</h3>
-                <h4><sup>₹</sup>999</h4>
+                <h4><sup>₹</sup>99</h4>
               </div>
 
               <ul>
@@ -157,7 +157,7 @@ const Pricing = () => {
               </ul>
 
               <div className="text-center mt-auto">
-                <a href="/" className="buy-btn">Buy Now</a>
+                <a href="https://rzp.io/l/DayPass99" className="buy-btn">Buy Now</a>
               </div>
 
             </div>
@@ -168,7 +168,7 @@ const Pricing = () => {
 
               <div className="pricing-header">
                 <h3>A WEEK PASS</h3>
-                <h4><sup>₹</sup>1499<span> / month</span></h4>
+                <h4><sup>₹</sup>249<span> / Week</span></h4>
               </div>
 
               <ul>
@@ -176,7 +176,7 @@ const Pricing = () => {
               </ul>
 
               <div className="text-center mt-auto">
-                <a href="/" className="buy-btn">Buy Now</a>
+                <a href="https://rzp.io/l/WeekPass249" className="buy-btn">Buy Now</a>
               </div>
 
             </div>
