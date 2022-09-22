@@ -11,99 +11,93 @@ const Pricing = () => {
   const pricingDetails = [
     {
       key: 1,
+      title: "DAY PASS",
+      description:
+        "Access to FABLAB for 24 hours on a working day.",
+      price: "99",
+      paymentLink: "https://rzp.io/l/DayPass99",
+    },
+    {
+      key: 2,
+      title: "WEEK PASS",
+      description:
+        "Access to Fablab for a Week during working days (Starts from the day of subscription & this is for 6 continuous days except for holidays).",
+      price: "299",
+      paymentLink: "https://rzp.io/l/WeekPass299",
+    },
+    {
+      key: 3,
+      title: "MONTHLY MEMBERSHIP",
+      description:
+        "Access to Fablab for a month during working days (Starts from the day of subscription & this is for 30 continuous days except for holidays).",
+      price: "499",
+      paymentLink: "https://rzp.io/l/MonthlyMembership499",
+    },
+    {
+      key: 4,
+      title: "PRE INCUBATEE MEMBERSHIP",
+      description:
+        "Access to FABLAB while being a pre-incubatee for startups.",
+      price: "3000",
+      paymentLink: "https://rzp.io/l/Pre-IncubateeMembershipFee",
+    },
+    {
+      key: 5,
+      title: "STARTUP INCUBATION FEE",
+      description:
+        "Access to FABLAB for all the activities entailing startups.",
+      price: "5000",
+      paymentLink: "https://rzp.io/l/siiecmembershipfee",
+    },
+    {
+      key: 6,
       title: "STUDENT MEMBERSHIP",
       description:
         "This is only for Students of the SRM Group of Institutions.",
       price: "1499",
-      paymentLink: "https://google.com",
-    },
-    {
-      key: 2,
-      title: "TECH TEAM MEMBERSHIP",
-      description:
-        "This is only for SRMIST's official technical team members. It's an individual team member's membership.",
-      price: "499",
-      paymentLink: "https://google.com",
-    },
-    {
-      key: 3,
-      title: "STARTUP MEMBERSHIP",
-      description:
-        "This is only for SIIC incubated startups and NewGen IEDC Supported projects. It's an individual team member's membership.",
-      price: "499",
-      paymentLink: "https://google.com",
-    },
-    {
-      key: 4,
-      title: "FACULTY MEMBERSHIP",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "1499",
-      paymentLink: "https://google.com",
-    },
-    {
-      key: 5,
-      title: "MEMBERSHIP FOR SRM ALUMNI",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "1999",
-      paymentLink: "https://google.com",
-    },
-    {
-      key: 6,
-      title: "MEMBERSHIP FOR EXTERNAL MEMBER",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "400",
-      paymentLink: "https://google.com",
+      paymentLink: "https://rzp.io/l/StudentMembership1499",
     },
     {
       key: 7,
-      title: "A DAY PASS",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "400",
-      paymentLink: "https://google.com",
+      title: "ALUMNI MEMBERSHIP",
+      description:"This is applicable only for Alumni of the SRM Group of Institutions.",
+      price: "1999",
+      paymentLink: "https://rzp.io/l/Alumnimembership1999",
     },
     {
       key: 8,
-      title: "A WEEK PASS",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "400",
-      paymentLink: "https://google.com",
+      title: "EXTERNAL MEMBERSHIP",
+      description:"Access to Fablab during its working hours for 6 months (Starts from Date of Subscription). 25% discount on usage of special machines.",
+      price: "2999",
+      paymentLink: "https://rzp.io/l/externalmembership2999",
     },
     {
       key: 9,
-      title: "FABLAB SERVICE PAYMENT",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "200",
-      paymentLink: "https://google.com",
+      title: "FACULTY & RESEARCH SCHOLAR MEMBERSHIP",
+      description:"Access to Fablab during its working hours for 6 months (Starts from Date of Subscription). 25% discount on usage of special machines.",
+      price: "1499",
+      paymentLink: "https://rzp.io/l/facultymembership1499",
     },
     {
       key: 10,
-      title: "EXTERNAL MEMBERSHIP",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "2999",
-      paymentLink: "https://google.com",
+      title: "STARTUP MEMBERSHIP",
+      description:"This is only for SIIC incubated startups and NewGen IEDC Supported projects. It's an individual team member's membership.",
+      price: "499",
+      paymentLink: "https://rzp.io/l/StartupsMembership499",
     },
     {
       key: 11,
-      title: "STARTUP INCUBATION FEE",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "2999",
-      paymentLink: "https://google.com",
+      title: "TECH TEAM MEMBERSHIP",
+      description:"This is only for SIIC incubated startups and NewGen IEDC Supported projects. It's an individual team member's membership.",
+      price: "499",
+      paymentLink: "https://rzp.io/l/TechTeamMembership499",
     },
     {
-      key: 11,
-      title: "PRE-INCUBATEE MEMBERSHIP FEE",
-      description:
-        "This is only for Faculties, Ph.D. & Research Scholars of the SRM Group of Institutions.",
-      price: "3000",
-      paymentLink: "https://google.com",
+      key: 12,
+      title: "FABLAB SERVICE PAYMENT",
+      description:"This subscription varies from ₹5 to ₹200.",
+      price: "200",
+      paymentLink: "https://rzp.io/l/fablabservicepayment",
     },
   ];
 
