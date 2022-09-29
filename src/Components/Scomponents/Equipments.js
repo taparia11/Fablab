@@ -2,6 +2,8 @@ import React from 'react'
 import Service1 from '../../Assets/image/Services/services-1.png'
 import Service2 from '../../Assets/image/Services/services-2.png'
 import Service3 from '../../Assets/image/Services/services-3.png'
+import Service4 from '../../Assets/image/Services/services-4.png'
+import Service5 from '../../Assets/image/Services/services-5.png'
 
 const Equipments = () => {
   return (
@@ -15,10 +17,10 @@ const Equipments = () => {
         </div>
 
         <div className="row gy-5">
-        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+        <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div className="service-item">
               <div className="img">
-                <img src={Service1} className="img-fluid" alt="" style={{height: '400px', width: '800px'}}/>
+                <img src={Service1} style={{height: '400px', width: '800px'}}/>
               </div>
               <div className="details position-relative" style={{height: '250px'}}>
                 <div className="icon">
@@ -32,10 +34,10 @@ const Equipments = () => {
             </div>
           </div>
 
-          <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+          <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div className="service-item">
               <div className="img">
-                <img src={Service2} className="img-fluid" alt="" style={{height: '400px', width: '800px'}}/>
+                <img src={Service2} style={{height: '400px', width: '800px'}}/>
               </div>
               <div className="details position-relative" style={{height: '250px'}}>
                 <div className="icon">
@@ -49,19 +51,37 @@ const Equipments = () => {
             </div>
           </div>
 
-          <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+          <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="500">
             <div className="service-item">
               <div className="img">
-                <img src={Service3} className="img-fluid" alt="" style={{height: '400px', width: '800px'}}/>
+                <img src={Service4} style={{height: '400px', width: '800px'}}/>
               </div>
               <div className="details position-relative" style={{height: '250px'}}>
                 <div className="icon">
                   <i className="bi bi-door-open-fill"></i>
                 </div>
                 <a href="/" className="stretched-link">
-                  <h3>ELECTRONICS ROOM</h3>
+                  <h3>CNC ENGRAVER</h3>
                 </a>
-                <p>Soldering Station<br/>DSO, Multimeter<br/>ICs {'&'} PCB components<br/>Signal generator, SMPS</p>
+                <p>Heavy machinery for engraving</p>
+                {/* <a href="/" className="stretched-link"></a> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div className="service-item">
+              <div className="img">
+                <img src={Service5} style={{height: '400px', width: '800px'}}/>
+              </div>
+              <div className="details position-relative" style={{height: '250px'}}>
+                <div className="icon">
+                  <i className="bi bi-door-open-fill"></i>
+                </div>
+                <a href="/" className="stretched-link">
+                  <h3>FIBER LASER METAL CUTTING</h3>
+                </a>
+                <p>Smooth metal cuts with accuracy and precision</p>
                 {/* <a href="/" className="stretched-link"></a> */}
               </div>
             </div>
