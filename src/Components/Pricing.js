@@ -127,7 +127,7 @@ const Pricing = () => {
                     key={item.key}
                   >
                     <div>
-                      <div className="bg-[#C2FBFF38] p-6 w-full text-center">
+                      <div className="bg-[#04dd788d] rounded-t-xl p-6 w-full text-center">
                         <h1 className="font-semibold text-2xl h-20 px-10 flex items-center justify-center">
                           {item.title}
                         </h1>
