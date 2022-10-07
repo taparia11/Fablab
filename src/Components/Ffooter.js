@@ -40,10 +40,7 @@ const Footer = () => {
 
     <div className="d-flex flex-column align-items-center align-items-lg-start">
       <div className="copyright">
-         &copy; 2022 Copyright <strong><span>FABLAB</span></strong>. All Rights Reserved
-      </div>
-      <div className="credits">
-        Designed and Developed by <a href="https://www.linkedin.com/in/nikhil-taparia/" target={'_blank'}>NIKHIL TAPARIA 🚀</a>
+         &copy; 2022 Copyright <strong><span>FABLAB</span></strong> All Rights Reserved
       </div>
     </div>
 
