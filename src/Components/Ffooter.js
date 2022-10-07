@@ -28,18 +28,7 @@ const Footer = () => {
           <li><i className="bi bi-chevron-right"></i> <a href="/">Home</a></li>
           <li><i className="bi bi-chevron-right"></i> <a href="/">About us</a></li>
           <li><i className="bi bi-chevron-right"></i> <a href="/">Services</a></li>
-          {/* <li><i className="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li> */}
-          {/* <li><i className="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li> */}
         </ul>
-      </div>
-
-      <div className="col-lg-4 col-md-6 footer-newsletter">
-        <h4>Our Newsletter</h4>
-        <p>Get all our Updates on your Mail.</p>
-        <form action="" method="post">
-          <input type="email" name="email"/><input type="submit" value="Subscribe" />
-        </form>
-
       </div>
 
     </div>
