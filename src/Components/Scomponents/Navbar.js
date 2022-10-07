@@ -9,6 +9,7 @@ const Navbar = () => {
           <a href="http://localhost:53639/"> <img src={Fablab} alt="fablab-logo" height={70} /></a>
           <nav id="navbar" className="navbar">
             <ul>
+            <li><a className="nav-link scrollto" href="https://www.srmiic.com/" >SIIEC</a></li>
               <li><a className="nav-link scrollto" href="index.html#hero-animated" >Home</a></li>
               {/* <li><a className="nav-link scrollto" href="index.html#about">About</a></li> */}
               <li><a className="nav-link scrollto" href="index.html#services">Services</a></li>
@@ -20,7 +21,7 @@ const Navbar = () => {
             </ul>
             <i className="bi bi-list mobile-nav-toggle d-none"></i>
           </nav>
-          <a className="btn-getstarted scrollto" href="/login">Login</a>
+          {/* <a className="btn-getstarted scrollto" href="/login">Login</a> */}
         </div>
       </header>    
     </>
