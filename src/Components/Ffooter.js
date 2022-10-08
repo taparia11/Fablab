@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="basis-2/5 col-lg-2 col-md-6 justify-start footer-links">
+      <div className="basis-3/5 items-center  col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
           <li><i className="bi bi-chevron-right"></i> <a href="/">Home</a></li>
@@ -40,7 +40,7 @@ const Footer = () => {
         </ul>
       </div>
   
-      <div className="basis-1/5 col-lg-2 col-md-6 footer-links">
+      <div className="basis-1/5 items-end col-lg-2 col-md-6 footer-links">
             <h4 className="text-3xl font-ubuntu font-bold">Our Social Network</h4>
             <p id="ffollow">Follow us to get news first in Market!</p>
             <div className="flex flex-row justify-between my-4">
