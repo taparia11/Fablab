@@ -19,7 +19,7 @@ const Footer = () => {
   <div className="container">
     <div className="row">
 
-      <div className="basis-1/5 col-lg-3 col-md-6">
+      <div className="basis-2/5 col-lg-3 col-md-6">
         <div className="footer-info">
           <img src={logo} alt="fablab logo" />
           <p>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="basis-3/5 items-center  col-lg-2 col-md-6 footer-links">
+      <div className="basis-2/5 justify-center col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
           <li><i className="bi bi-chevron-right"></i> <a href="/">Home</a></li>
