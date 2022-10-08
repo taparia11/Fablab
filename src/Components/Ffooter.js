@@ -1,4 +1,13 @@
 import React from 'react'
+import logo from "../Assets/image/Fablab.svg"
+import {
+  BsFacebook,
+  BsInstagram,
+  BsLinkedin,
+  BsMailbox,
+  BsTwitter,
+} from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
@@ -10,9 +19,9 @@ const Footer = () => {
   <div className="container">
     <div className="row">
 
-      <div className="col-lg-3 col-md-6">
+      <div className="basis-1/5 col-lg-3 col-md-6">
         <div className="footer-info">
-          <h3>Fablab</h3>
+          <img src={logo} alt="fablab logo" />
           <p>
             Fablab, SRMIST <br/>
             TN 603203, INDIA<br/><br/>
@@ -22,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="col-lg-2 col-md-6 footer-links">
+      <div className="basis-2/5 col-lg-2 col-md-6 justify-start footer-links">
         <h4>Useful Links</h4>
         <ul>
           <li><i className="bi bi-chevron-right"></i> <a href="/">Home</a></li>
@@ -30,30 +39,49 @@ const Footer = () => {
           <li><i className="bi bi-chevron-right"></i> <a href="/">Services</a></li>
         </ul>
       </div>
-
+  
+      <div className="basis-1/5 col-lg-2 col-md-6 footer-links">
+            <h4 className="text-3xl font-ubuntu font-bold">Our Social Network</h4>
+            <p id="ffollow">Follow us to get news first in Market!</p>
+            <div className="flex flex-row justify-between my-4">
+              <a
+                className="folink"
+                href="https://www.instagram.com/srmfablab/"
+                target="_blank"
+              >
+                <BsInstagram size={35} style={{ color: "white" }} />
+              </a>
+              <a
+                className="folink"
+                href="https://www.facebook.com/srmfablab"
+                target="_blank"
+              >
+                <BsFacebook size={35} style={{ color: "white" }} />
+              </a>
+              <a
+                className="folink"
+                href="https://www.linkedin.com/showcase/siicfablab/"
+                target="_blank"
+              >
+                <BsLinkedin size={35} style={{ color: "white" }} />
+              </a>
+              <a
+                className="folink"
+                href="mailto:manager.fablab@srmist.edu.in"
+                target="_blank"
+              >
+                <HiOutlineMail size={35} style={{ color: "white" }} />
+              </a>
+            </div>
+          </div> 
+    
     </div>
   </div>
-</div>
-
-<div className="footer-legal text-center">
-  <div className="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-    <div className="d-flex flex-column align-items-center align-items-lg-start">
-      <div className="copyright">
+  <div className="copyright">
          &copy; 2022 Copyright <strong><span>FABLAB</span></strong> All Rights Reserved
       </div>
-    </div>
-
-    <div className="social-links order-first order-lg-last mb-3 mb-lg-0">
-      <a href="/" className="google-plus"><i className="bi bi-envelope-open-fill"></i></a>
-      <a href="/" className="linkedin"><i className="bi bi-linkedin"></i></a>
-      <a href="/" className="twitter"><i className="bi bi-twitter"></i></a>
-      <a href="/" className="facebook"><i className="bi bi-facebook"></i></a>
-      <a href="/" className="instagram"><i className="bi bi-instagram"></i></a>
-    </div>
-
-  </div>
 </div>
+
 
 </footer>
     </>
