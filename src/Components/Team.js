@@ -71,14 +71,18 @@ const Team = () => {
                   />
                 </div>
                 <div className="member-info">
-                  {/* <div className="social">
-                    <a href="/">
+                  <div className="social">
+                    <a href="mailto:kirubakd@srmist.edu.in">
                       <i className="bi bi-envelope-fill"></i>
                     </a>
-                    <a href="/">
+                    <a
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                      href="https://www.linkedin.com/in/kirubakaran-d-097a60223/"
+                    >
                       <i className="bi bi-linkedin"></i>
                     </a>
-                  </div> */}
+                  </div>
                   <h4>Mr. Kirubakaran D</h4>
                   <span>Technical Assistant, Fablab</span>
                 </div>
@@ -100,14 +104,14 @@ const Team = () => {
                   />
                 </div>
                 <div className="member-info">
-                  {/* <div className="social">
-                    <a href="/">
+                  <div className="social">
+                    <a href="mailto:kuralarm1@srmist.edu.in">
                       <i className="bi bi-envelope-fill"></i>
                     </a>
-                    <a href="/">
+                    {/* <a target={"_blank"} rel="noopener noreferrer" href="">
                       <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
                   <h4>Mr. KURAL A</h4>
                   <span>Technical Assistant, Fablab</span>
                 </div>
@@ -129,14 +133,18 @@ const Team = () => {
                   />
                 </div>
                 <div className="member-info">
-                  {/* <div className="social">
-                    <a href="/">
+                  <div className="social">
+                    <a href="mailto:manimars@srmist.edu.in">
                       <i className="bi bi-envelope-fill"></i>
                     </a>
-                    <a href="/">
+                    <a
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                      href="https://www.linkedin.com/in/mani-maran-3b770818a"
+                    >
                       <i className="bi bi-linkedin"></i>
                     </a>
-                  </div> */}
+                  </div>
                   <h4>Mr. Mani Maran</h4>
                   <span>Technical Assistant, Fablab</span>
                 </div>
@@ -158,14 +166,18 @@ const Team = () => {
                   />
                 </div>
                 <div className="member-info">
-                  {/* <div className="social">
-                    <a href="/">
+                <div className="social">
+                    <a href="mailto:sivasans4@srmist.edu.in ">
                       <i className="bi bi-envelope-fill"></i>
                     </a>
-                    <a href="/">
+                    {/* <a
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                      href=""
+                    >
                       <i className="bi bi-linkedin"></i>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
                   <h4>Mr. Sivasankar S</h4>
                   <span>Technical Assistant, Fablab</span>
                 </div>
