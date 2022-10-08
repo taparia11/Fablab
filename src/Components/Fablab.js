@@ -7,6 +7,8 @@ import Faq from './Faq';
 import Team from './Team';
 import Contact from './Contact';
 import Footer from './Ffooter';
+import Testimonial from './Scomponents/Testimonial'
+
 const Fablab = () => {
   return (
     <>
@@ -16,6 +18,7 @@ const Fablab = () => {
     <Pricing />
     <Faq />
     <Team />
+    <Testimonial />
     <Contact />
     <Footer />
     </>
